@@ -14,3 +14,4 @@ LA RIVOLUZIONE È NELLA SOTTRAZIONE, nella negazione, nella scandalosa rinuncia 
 
 E’ possibile liberarci togliendo il controllo al nostro egocentrismo modellato dal linguaggio di questa società e dando spazio alla parte di noi che si sente oppressa, confusa, lacerata dalle tante violenze quotidiane subite, inadatta e incapace di prestazioni efficienti, di raggiungere il successo, la tranquillità esistenziale individuale che l’attuale cultura ci pone come traguardo, la parte di noi fatta di energia creativa viva, che non può essere messa in produzione, che sa avvicinarsi alle fragilità dell’altro per creare insieme luoghi relazioni umani improduttivi, inutili ma belli e soprattutto incontrollabili, che non rispondono alle nostre aspettative, che in questa imprevedibilità aprono nuove possibilità di trasformazione reale e radicale della realtà.
 [leggi le mie note qui](note.md)
+
