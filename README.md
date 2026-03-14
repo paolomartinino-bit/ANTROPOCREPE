@@ -1,5 +1,6 @@
 # outlierlab
-alla ricerca dell'umano
+## alla ricerca dell'umano
+
 NON C’È PIÙ TEMPO, dobbiamo agire adesso. Siamo immobili sull’orlo di un baratro esistenziale, in una condizione di angoscia perenne individualizzata e di precarietà generalizzata in una società che sta diventando sempre più violenta, basata sul dominio e la morte.
 Il controllo digitale e la messa in produzione inconsapevole delle nostre vite con i social e gli algoritmi delle intelligenze artificiali ci hanno ingabbiato in una condizione di alienazione che ci impedisce ogni tentativo di entrare in contatto con la nostra autentica umanità e ci porta ad accettare genocidi, guerre e la regressione delle conquiste sociali di uguaglianza e libertà, che non ci fa neanche pensare possibile l’idea di una minima fuga.
 NON SIAMO CLIENTI dei social network e delle piattaforme AI ma la manodopera non pagata del capitale cognitivo. La nostra libertà è una prigione di protocolli, non di sbarre, che ci costringe in una schiavitù invisibile dove l’energia mentale, l’attenzione e la creatività vengono silenziosamente messe in produzione per alimentare gli algoritmi.
