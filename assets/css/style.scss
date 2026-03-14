@@ -2,35 +2,41 @@
 ---
 @import "{{ site.theme }}";
 
-/* 1. Reset della struttura Minimal per evitare la colonna a destra */
+/* 1. Rimuoviamo i limiti di larghezza e la struttura a colonne */
 .wrapper {
   max-width: 95% !important;
+  width: 95% !important;
   margin: 0 auto !important;
-  display: block !important; /* Forza il layout verticale invece che a colonne */
+  display: block !important;
+  padding: 20px !important;
 }
 
-/* 2. Allinea il titolo (header) e il testo (section) */
-header, section {
-  float: none !important;
-  width: 100% !important;
-}
-
-/* 3. Sposta il titolo e i link in alto sopra il testo */
+/* 2. Sistemiamo l'intestazione (Titolo e Descrizione) */
 header {
-  position: static !important;
-  margin-bottom: 2rem !important;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 1rem;
+  position: relative !important;
+  width: 100% !important;
+  float: none !important;
+  margin-bottom: 30px !important;
+  border-bottom: 2px solid #eee;
 }
 
-/* 4. Il testo principale ora prende tutto lo spazio */
+/* 3. Rendiamo il contenuto del saggio a tutta larghezza */
 section {
+  width: 100% !important;
+  float: none !important;
   padding: 0 !important;
 }
 
-/* 5. Ottimizzazione font per 200 pagine */
+/* 4. Nascondiamo la scritta "mantenuto da..." e i link inutili */
+header p.view, 
+header ul, 
+footer {
+  display: none !important;
+}
+
+/* 5. Miglioriamo la leggibilità dei tuoi testi */
 body {
-  font-size: 1.2rem;
-  line-height: 1.7;
-  color: #222;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #111;
 }
