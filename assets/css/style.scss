@@ -2,6 +2,14 @@
 ---
 @import "{{ site.theme }}";
 
-.container {
-  max-width: 95%; /* Allarga la struttura del tema Hacker */
+/* Per il tema Hacker la struttura si chiama container o wrapper */
+.container, #wrapper {
+  max-width: 95% !important; 
+  width: 95% !important;
+  margin: 0 auto;
+}
+
+/* Questo assicura che il testo occupi lo spazio allargato */
+section#main_content {
+  max-width: 100% !important;
 }
