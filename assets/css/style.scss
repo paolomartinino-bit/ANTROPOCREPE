@@ -2,23 +2,35 @@
 ---
 @import "{{ site.theme }}";
 
-/* Per il tema Minimal, il contenitore principale è .wrapper */
+/* 1. Reset della struttura Minimal per evitare la colonna a destra */
 .wrapper {
   max-width: 95% !important;
-  width: 95% !important;
   margin: 0 auto !important;
-  padding: 20px !important;
+  display: block !important; /* Forza il layout verticale invece che a colonne */
 }
 
-/* Assicuriamoci che anche l'header segua la stessa larghezza */
+/* 2. Allinea il titolo (header) e il testo (section) */
+header, section {
+  float: none !important;
+  width: 100% !important;
+}
+
+/* 3. Sposta il titolo e i link in alto sopra il testo */
 header {
-  max-width: 95% !important;
-  margin: 0 auto !important;
+  position: static !important;
+  margin-bottom: 2rem !important;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
 }
 
-/* Migliora la leggibilità del testo su sfondo bianco */
+/* 4. Il testo principale ora prende tutto lo spazio */
+section {
+  padding: 0 !important;
+}
+
+/* 5. Ottimizzazione font per 200 pagine */
 body {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #111;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #222;
 }
