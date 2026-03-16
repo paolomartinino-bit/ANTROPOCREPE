@@ -24,27 +24,25 @@ header, section {
 /* 2. ESTETICA GENERALE SLUDGE */
 body {
   font-family: 'Special Elite', courier, serif !important;
-  background-color: #f4f4f4 !important; /* Grigio cemento chiaro */
+  background-color: #f4f4f4 !important;
   color: #1a1a1a !important;
   font-size: 1.25rem;
   line-height: 1.6;
 }
 
 /* 3. IL MANIFESTO: ANTROPOCREPE */
-/* Colpisce il primo H1 del saggio */
 section h1:first-of-type {
   font-family: 'Special Elite', serif !important;
-  font-size: 5rem !important; /* Gigantesco */
+  font-size: 5rem !important;
   text-transform: uppercase;
-  color: #2c0b02 !important; /* Ruggine scura */
-  letter-spacing: -4px; /* Effetto schiacciato/pesante */
+  color: #2c0b02 !important;
+  letter-spacing: -4px;
   line-height: 0.8;
   margin-bottom: 0px !important;
   border-bottom: none !important;
   text-shadow: 2px 2px 0px #ccc;
 }
 
-/* Il sottotitolo: alla ricerca dell'umano */
 section h2:first-of-type {
   font-family: 'Special Elite', serif !important;
   font-size: 1.6rem !important;
@@ -52,10 +50,28 @@ section h2:first-of-type {
   color: #555 !important;
   margin-top: 0px !important;
   padding-bottom: 20px;
-  border-bottom: 4px solid #1a1a1a !important; /* Linea spessa nera */
+  border-bottom: 4px solid #1a1a1a !important;
 }
 
-/* Altri titoli nel testo */
+/* 4. PULIZIA TOTALE INTESTAZIONE AUTOMATICA */
+/* Questo elimina ogni traccia del titolo e sottotitolo generati dal tema */
+header h1, 
+header p, 
+header p.header, 
+.header p,
+header p.view, 
+header ul, 
+footer {
+  display: none !important;
+}
+
+header {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  height: 0 !important; /* Riduce l'ingombro dell'header ormai vuoto */
+}
+
+/* 5. ALTRI ELEMENTI */
 h2, h3, h4 {
   font-family: 'Special Elite', serif !important;
   color: #000 !important;
@@ -63,18 +79,6 @@ h2, h3, h4 {
   border-bottom: 1px solid #333;
 }
 
-/* 4. PULIZIA ELEMENTI INUTILI */
-/* Nasconde titoli automatici del tema e sidebar */
-header h1, header p.header, header p.view, header ul, footer {
-  display: none !important;
-}
-
-header {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-/* 5. LINK STILE FANZINE */
 a {
   color: #000 !important;
   text-decoration: underline;
@@ -84,14 +88,11 @@ a {
 a:hover {
   background: #000;
   color: #fff !important;
-  text-decoration: none;
 }
 
-/* Citazioni (Blockquotes) - stile ritaglio */
 blockquote {
   border-left: 10px solid #2c0b02 !important;
   background: #eee;
   padding: 10px 20px !important;
-  font-style: italic;
   margin: 20px 0 !important;
 }
