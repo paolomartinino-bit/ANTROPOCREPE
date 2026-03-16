@@ -1,4 +1,4 @@
-# outlierlab
+# ANTROPOCREPE
 ## alla ricerca dell'umano
 
 Adesso basta. Fermati. Smettila di credere a tutto quello che ti hanno insegnato. Quella non è la realtà. 
