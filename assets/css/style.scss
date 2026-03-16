@@ -87,3 +87,14 @@ blockquote {
   background: #eee;
   padding: 10px 20px !important;
 }
+/* Elimina definitivamente la scritta 'This project is maintained by...' e il footer */
+footer, 
+.footer, 
+.owner, 
+.creators {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
